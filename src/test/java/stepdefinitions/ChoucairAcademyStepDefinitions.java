@@ -24,7 +24,7 @@ public class ChoucairAcademyStepDefinitions {
     @Given("^than Bray wants to learn automation at the Academy Choucair$")
     public void thanBrayWantsToLearnAutomationAtTheAcademyChoucair(List<AcademyChoucairData> academyChoucairData) throws Exception {
         OnStage.theActorCalled("Bray").wasAbleTo(OpenUp.thePage(),
-                Login.onThePage(academyChoucairData.get( 0 ).getStrUser(),academyChoucairData.get(0).getStrPassword()));
+                Login.onThePage(academyChoucairData.get(0).getStrUser(),academyChoucairData.get(0).getStrPassword()));
     }
 
     @When("^he search for the course on the Choucair Academy platform$")

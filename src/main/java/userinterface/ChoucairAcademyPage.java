@@ -3,7 +3,6 @@ package userinterface;
 import net.serenitybdd.core.pages.PageObject;
 import net.thucydides.core.annotations.DefaultUrl;
 
-@DefaultUrl("https://aeroclubskydive.com")
+@DefaultUrl("https://operacion.choucairtesting.com/academy/my/")
 public class ChoucairAcademyPage extends PageObject {
-
 }
